@@ -14,6 +14,7 @@ class TestDelegate {
 		delegator.add(new Student("cris"));
 		
 		Informer informer = new School();
+		//  通知类发出通知给委派类
 		informer.inform(delegator);
 		
 	}
